@@ -7,7 +7,6 @@ from openai import OpenAI
 from utils import load_json, dump_json
 
 # VARS
-
 CUR_DIR = Path(__file__).parent
 KEY_FILE = CUR_DIR / "keys" / "openai.key"
 SETTINGS_FILE = CUR_DIR / "settings.json"
